@@ -1,5 +1,5 @@
 import React from 'react';
-import { PAGE_IDS } from '@site/src/pages/pageConfig';
+import { PAGE_IDS } from '@site/src/config/pageConfig';
 
 interface PageLinkProps {
   pageId: keyof typeof PAGE_IDS;

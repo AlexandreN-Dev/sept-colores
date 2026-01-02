@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Layout from '@theme/Layout';
-import { pageRegistry } from './pageConfig';
+import { pageRegistry } from '@site/src/config/pageConfig';
 import { useHideNavbarFooter } from '../hooks/hideNavAndFooter';
 
 export default function CharacterPage() {
