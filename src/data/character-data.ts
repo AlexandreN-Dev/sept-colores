@@ -1,0 +1,28 @@
+export const PERSONNAGES = {
+  tisselapalette: {
+    nom: "Irène Tisselapalette",
+    chance: 4,
+    equipe: "Gérante de l'auberge de la Maine Tendue",
+    origine: "Ancienne comptable, elle a perdu ses couleurs suite à un divorce mal vécu.",
+    traitsParticuliers: "Sereine en toute circonstances",
+    essence: "Douce - Maternelle",
+    excentricite: "Ne s'étonne de rien - A un sens de l'humour caustique",
+    donColore: "A la capacité de faire apparaître des boissons aux effets magiques dans ses mains.",
+    donNom: "In Vino Veritas",
+    imagePath: '/img/Persos/PNJs/Tisselapalette.png',
+    couleur: 'vert',
+  },
+  vermillon: {
+    nom: "Charles Vermillon",
+    chance: 4,
+    equipe: "Maire de Septcolores",
+    origine: "Ancien psychiatre, il a perdu ses couleurs suite au suicide de l'un de ses patients",
+    traitsParticuliers: "S'inquiète de tout, tout le temps",
+    essence: "Franc - Direct",
+    excentricite: "Préfère l'honnêté brutale à une gentillesse mensongère",
+    donColore: "A la capacité de faire apparaître le journal de demain, dans ses mains.",
+    donNom: "Demain à la Une",
+    imagePath: '/img/Persos/PNJs/Vermillon.png',
+    couleur: 'rouge',
+  },
+} as const;
