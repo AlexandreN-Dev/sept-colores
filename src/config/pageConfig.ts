@@ -1,6 +1,6 @@
 import { ComponentType } from 'react';
-import TisselapaletteContent from '@site/src/pages/char_sheets/tisselapalette';
-import VermillonContent from '@site/src/pages/char_sheets/vermillon';
+import TisselapaletteContent from '@site/src/components/char_sheets/tisselapalette';
+import VermillonContent from '@site/src/components/char_sheets/vermillon';
 
 export const PAGE_IDS = {
   TISSELAPALETTE: '550e8400-e29b-41d4-a716-446655440000',

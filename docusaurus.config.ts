@@ -33,7 +33,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
 
-          editUrl: 'false'
+          editUrl: undefined
         },
         blog: {
           showReadingTime: true,

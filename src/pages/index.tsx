@@ -8,6 +8,7 @@ import Heading from '@theme/Heading';
 import { PasswordProtected } from '@site/src/components/HomepageFeatures/PasswordProtected';
 
 import styles from './index.module.css';
+import React from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
